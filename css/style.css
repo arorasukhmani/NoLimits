@@ -369,14 +369,27 @@ text-align:center;
 img{margin-left: 50px;
   object-fit: cover;
 }
-@media screen and(max-width: 992px){}
+@media screen and(max-width: 992px){
 body{
-  background-color: blue;
+  background-color: blue;}
+  .flex-container{
+display: block;
+  }
+  .flex-box{
+      display: block;
+  }
 }
-}
-@media screen and(max-width: 600px){}
+
+@media screen and(max-width: 600px){
 body{
-  background-color:olive;
+  background-color:rgb(236, 236, 152);
+}
+.flex-container{
+    display: block;
+}
+.flex-box{
+    display: block;
+}
 }
 
 .flex-box {
